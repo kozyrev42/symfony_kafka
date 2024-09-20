@@ -1,0 +1,5 @@
+enqueue:
+    default:
+        transport:
+            dsn: "kafka://localhost:9092"
+        client: ~

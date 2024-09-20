@@ -26,6 +26,28 @@
             "migrations/.gitignore"
         ]
     },
+    "enqueue/enqueue-bundle": {
+        "version": "0.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "0.9",
+            "ref": "c6ec89b63f963d10ad0d7a7bea170359c119c8bc"
+        },
+        "files": [
+            "config/packages/enqueue.yaml",
+            "config/packages/test/enqueue.yaml"
+        ]
+    },
+    "enqueue/rdkafka": {
+        "version": "0.10",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "0.8",
+            "ref": "52a1ce303070ba433874414402e240cca13ed17d"
+        }
+    },
     "phpunit/phpunit": {
         "version": "9.6",
         "recipe": {
